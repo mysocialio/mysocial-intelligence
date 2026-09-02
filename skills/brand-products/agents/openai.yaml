@@ -1,0 +1,11 @@
+interface:
+  display_name: "Brand Products"
+  short_description: "Map and maintain what the creator sells"
+  default_prompt: "Use $brand-products to show me what I sell and where the gaps are."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "mysocial"
+      description: "Mysocial Intelligence data and content tools"
+      transport: "streamable_http"
+      url: "https://app.mysocial.io/mcp"

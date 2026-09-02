@@ -1,0 +1,11 @@
+interface:
+  display_name: "Draft Outreach"
+  short_description: "Evidence-backed outreach drafts for saved leads"
+  default_prompt: "Use $outreach to draft outreach for my next saved lead."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "mysocial"
+      description: "Mysocial Intelligence data and content tools"
+      transport: "streamable_http"
+      url: "https://app.mysocial.io/mcp"

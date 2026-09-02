@@ -1,0 +1,17 @@
+{
+  "name": "mysocial-intelligence",
+  "owner": {
+    "name": "Mysocial",
+    "email": "support@mysocial.io",
+    "url": "https://mysocial.io/"
+  },
+  "plugins": [
+    {
+      "name": "mysocial-intelligence",
+      "source": "./",
+      "description": "Social media intelligence for your content and the wider social world. Bundles the Mysocial MCP server with the make-next-post, research-creator-universe and brand-docs skills.",
+      "version": "0.1.1"
+    }
+  ],
+  "description": "Mysocial Intelligence: your real Instagram, TikTok, YouTube, LinkedIn and Threads history readable by your AI, plus the skills that know how to use it."
+}

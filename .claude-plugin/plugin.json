@@ -1,0 +1,19 @@
+{
+  "name": "mysocial-intelligence",
+  "version": "0.1.1",
+  "description": "Social media intelligence for your content and the wider social world. Bundles the Mysocial MCP server with the make-next-post, research-creator-universe and brand-docs skills.",
+  "author": {
+    "name": "Mysocial",
+    "email": "support@mysocial.io",
+    "url": "https://mysocial.io/"
+  },
+  "homepage": "https://mysocial.io/",
+  "keywords": [
+    "creator intelligence",
+    "social media",
+    "content strategy",
+    "Instagram"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/mysocialio/mysocial-intelligence"
+}

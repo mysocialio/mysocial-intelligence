@@ -1,0 +1,11 @@
+interface:
+  display_name: "Research Creator Universe"
+  short_description: "Explore personalized creator and audience evidence"
+  default_prompt: "Use $research-creator-universe to investigate my topics and follow the evidence step by step."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "mysocial"
+      description: "Mysocial Intelligence data and content tools"
+      transport: "streamable_http"
+      url: "https://app.mysocial.io/mcp"

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mysocial": {
+      "type": "http",
+      "url": "https://app.mysocial.io/mcp"
+    }
+  }
+}

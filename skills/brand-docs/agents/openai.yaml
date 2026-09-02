@@ -1,0 +1,11 @@
+interface:
+  display_name: "Brand Docs"
+  short_description: "Maintain living brand documents"
+  default_prompt: "Use $brand-docs to record what we just learned in my brand documents."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "mysocial"
+      description: "Mysocial Intelligence data and content tools"
+      transport: "streamable_http"
+      url: "https://app.mysocial.io/mcp"

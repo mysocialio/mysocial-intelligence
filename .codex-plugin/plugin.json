@@ -1,0 +1,41 @@
+{
+  "name": "mysocial-intelligence",
+  "version": "0.1.0",
+  "description": "Social media intelligence for your content and the wider social world.",
+  "author": {
+    "name": "Mysocial",
+    "email": "support@mysocial.io",
+    "url": "https://mysocial.io/"
+  },
+  "homepage": "https://mysocial.io/",
+  "keywords": [
+    "creator intelligence",
+    "social media",
+    "content strategy",
+    "Instagram"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Mysocial Intelligence",
+    "shortDescription": "Your content and the wider social world",
+    "longDescription": "Understand what works for you, what is working across social media, and what to make next.",
+    "developerName": "Mysocial",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://mysocial.io/",
+    "privacyPolicyURL": "https://mysocial.io/privacy-policy/",
+    "termsOfServiceURL": "https://mysocial.io/terms-of-service/",
+    "brandColor": "#2772FF",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/logo.png",
+    "defaultPrompt": [
+      "Show me what is working in my content.",
+      "Tell me what is gaining momentum in my social world.",
+      "Use my social intelligence to plan my next post."
+    ]
+  }
+}
