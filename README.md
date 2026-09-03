@@ -2,13 +2,28 @@
 
 [![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/mysocial-io-mcp)
 
-Give your AI your real social media history. This plugin bundles the
-**Mysocial MCP server** — your Instagram, TikTok, YouTube, LinkedIn and Threads
-posts, metrics, transcripts, comments and audience, readable by Claude, ChatGPT
-or Codex — with five skills that know how to use it.
+**A social media MCP server for creators.** Your Instagram, TikTok, YouTube,
+LinkedIn and Threads history — posts, metrics, transcripts, comments and
+audience — readable by Claude, ChatGPT or Codex, bundled with five skills that
+know how to use it.
 
-Most social-media connectors *post* for you. This one **reads what you already
+Most social media MCP servers *post* for you. This one **reads what you already
 published**, then researches everything around it.
+
+### Where this fits
+
+Social media MCP servers do four different jobs, and picking the wrong one is
+the usual mistake:
+
+| Job | What you want | Use |
+|---|---|---|
+| **Publish** | The AI posts and schedules for you | Postiz, Buffer, Typefully, Ayrshare |
+| **Report** | The AI reads your metrics — views, watch time, CTR | Supermetrics, Windsor.ai, Porter Metrics |
+| **Research** | The AI reads *other people's* public content | Bright Data, Apify |
+| **Remember** | The AI knows your own body of work | **this server** |
+
+If you want the AI to publish, use a scheduler — this server has no posting
+tools and is not trying to acquire any.
 
 ## Install
 
