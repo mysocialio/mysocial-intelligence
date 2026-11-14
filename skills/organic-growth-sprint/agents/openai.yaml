@@ -1,0 +1,11 @@
+interface:
+  display_name: "Organic Growth Sprint"
+  short_description: "Find niche outliers and turn them into a filming-ready batch"
+  default_prompt: "Use $organic-growth-sprint to find relevant creators and their outlier posts, inspect how they work, and build me an evidence-backed batch I can film."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "mysocial"
+      description: "Mysocial Intelligence data and content tools"
+      transport: "streamable_http"
+      url: "https://app.mysocial.io/mcp"

@@ -1,7 +1,7 @@
 {
   "name": "mysocial-intelligence",
   "version": "0.1.0",
-  "description": "Social media intelligence for your content and the wider social world.",
+  "description": "See what works on your Instagram, TikTok, YouTube and LinkedIn, and what to post next.",
   "author": {
     "name": "Mysocial",
     "email": "support@mysocial.io",
@@ -9,17 +9,32 @@
   },
   "homepage": "https://mysocial.io/",
   "keywords": [
-    "creator intelligence",
     "social media",
+    "social media analytics",
+    "social media intelligence",
     "content strategy",
-    "Instagram"
+    "content ideas",
+    "creator",
+    "instagram",
+    "tiktok",
+    "youtube",
+    "linkedin",
+    "threads",
+    "substack",
+    "competitor research",
+    "outliers",
+    "hooks",
+    "audience research",
+    "brand voice",
+    "brand deals",
+    "mcp"
   ],
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Mysocial Intelligence",
-    "shortDescription": "Your content and the wider social world",
-    "longDescription": "Understand what works for you, what is working across social media, and what to make next.",
+    "shortDescription": "What works in your content, and what to post next",
+    "longDescription": "Social media intelligence from your own posts, transcripts, comments and audience on Instagram, TikTok, YouTube, LinkedIn, Threads and Substack, plus the creators and outlier posts in your niche. Understand what works for you, what is working across social media, and what to make next. It reads and researches; it never posts for you.",
     "developerName": "Mysocial",
     "category": "Productivity",
     "capabilities": [

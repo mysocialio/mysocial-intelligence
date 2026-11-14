@@ -1,0 +1,11 @@
+interface:
+  display_name: "Find Next Content"
+  short_description: "Evidence-backed directions for what to make next"
+  default_prompt: "Use $find-next-content to find what I should make next, from my Mysocial evidence."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "mysocial"
+      description: "Mysocial Intelligence data and content tools"
+      transport: "streamable_http"
+      url: "https://app.mysocial.io/mcp"

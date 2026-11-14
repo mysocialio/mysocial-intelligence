@@ -1,7 +1,7 @@
 {
   "name": "mysocial-intelligence",
-  "version": "0.1.1",
-  "description": "Social media intelligence for your content and the wider social world. Bundles the Mysocial MCP server with the make-next-post, research-creator-universe and brand-docs skills.",
+  "version": "0.1.4",
+  "description": "See what works on your Instagram, TikTok, YouTube and LinkedIn, and what to post next. Social media intelligence from your own posts, transcripts, comments and audience on Instagram, TikTok, YouTube, LinkedIn, Threads and Substack, plus the creators and outlier posts in your niche. Eight skills: analyse what works and why a post hit, find what to make next, write the next post (hook, script, caption, CTA), research creators and competitors, run an organic growth sprint, keep brand voice documents and your product catalog, and draft brand deal outreach. Works on the free plan. It reads and researches; it never posts for you.",
   "author": {
     "name": "Mysocial",
     "email": "support@mysocial.io",
@@ -9,10 +9,25 @@
   },
   "homepage": "https://mysocial.io/",
   "keywords": [
-    "creator intelligence",
     "social media",
+    "social media analytics",
+    "social media intelligence",
     "content strategy",
-    "Instagram"
+    "content ideas",
+    "creator",
+    "instagram",
+    "tiktok",
+    "youtube",
+    "linkedin",
+    "threads",
+    "substack",
+    "competitor research",
+    "outliers",
+    "hooks",
+    "audience research",
+    "brand voice",
+    "brand deals",
+    "mcp"
   ],
   "license": "MIT",
   "repository": "https://github.com/mysocialio/mysocial-intelligence"

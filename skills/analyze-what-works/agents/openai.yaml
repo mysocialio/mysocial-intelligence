@@ -1,0 +1,11 @@
+interface:
+  display_name: "Analyze What Works"
+  short_description: "Find the repeatable mechanisms behind a creator's hits"
+  default_prompt: "Use $analyze-what-works to explain what repeatedly works for me and why, from my Mysocial evidence."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "mysocial"
+      description: "Mysocial Intelligence data and content tools"
+      transport: "streamable_http"
+      url: "https://app.mysocial.io/mcp"

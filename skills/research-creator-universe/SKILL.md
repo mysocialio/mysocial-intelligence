@@ -1,6 +1,6 @@
 ---
 name: research-creator-universe
-description: Investigate public Creator Universe posts and creators in the context of the connected creator's own topics. Use when a user asks what is working for them, what is hot in their market, what they have not covered, or requests evidence-based research beyond their own channel.
+description: Research what is working in a creator's niche - competitor and creator research across public Instagram, TikTok and YouTube posts in the Mysocial Creator Universe, read against the connected creator's own topics. Use when a user asks what is hot or gaining momentum in their market, which creators and outlier posts lead their niche, what they have not covered, or wants evidence-based research beyond their own channel.
 ---
 
 # Research Creator Universe

@@ -4,7 +4,7 @@
 
 **A social media MCP server for creators.** Your Instagram, TikTok, YouTube,
 LinkedIn and Threads history — posts, metrics, transcripts, comments and
-audience — readable by Claude, ChatGPT or Codex, bundled with five skills that
+audience — readable by Claude, ChatGPT or Codex, bundled with eight skills that
 know how to use it.
 
 Most social media MCP servers *post* for you. This one **reads what you already
@@ -51,13 +51,16 @@ client: https://mysocial.io/mcp/
 
 | Skill | What it does |
 |---|---|
+| `analyze-what-works` | What repeatedly works for you and why a post hit: the mechanism behind your best posts, not a list of them. |
+| `find-next-content` | What to post next: proven but under-used mechanisms, unmet audience demand, and what to avoid because it is saturated. |
 | `make-next-post` | The strongest evidence-backed next post: hooks, scripts, captions, CTAs, formats — from what already worked for *you*. |
 | `research-creator-universe` | What is working across public creators in your topics, and what you have not covered. |
+| `organic-growth-sprint` | Grow an account from niche references: find creators and their outlier posts, see how they work, and build a filming-ready batch. |
 | `brand-docs` | Read and maintain your living Brand Studio documents — audience, voice, strategy notes. |
 | `brand-products` | Your product catalogue: offers, prices, lifecycle, how they ladder. |
 | `outreach` | Find brands worth pitching and the verified people to reach, from your own numbers. |
 
-The MCP server exposes 66 tools. Connecting your channels and reading your
+The MCP server exposes 64 tools. Connecting your channels and reading your
 history is free; transcripts, comment text, Hit DNA, audience psychographics,
 Creator Universe research and brand partnerships are on paid plans — the
 server tells the assistant which plan unlocks what, and never spends on an

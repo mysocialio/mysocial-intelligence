@@ -1,6 +1,6 @@
 ---
 name: brand-products
-description: Read and maintain the creator's product catalog in Brand Studio - every offer they sell, its price, its real lifecycle status, and how the offers ladder into each other. Use when advising on pricing, offers, launches, or what to promote, when asked what the creator sells or where their revenue gaps are, and when a new or changed offer comes up that is worth recording.
+description: Map what a creator sells - every offer, its price, its real lifecycle status, and how the offers ladder into each other - in the Brand Studio product catalog. Use when advising on pricing, offers, launches, or what to promote, when asked what the creator sells or where their revenue gaps are, and when a new or changed offer comes up that is worth recording.
 ---
 
 # Brand Products

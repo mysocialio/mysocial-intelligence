@@ -1,6 +1,6 @@
 ---
 name: brand-docs
-description: Read, update, and create the creator's living Brand Studio documents (audience research, hooks, voice, strategy notes). Use when you learn something durable about the brand worth recording, when asked to update brand documentation, or when you need deep brand context for creative work.
+description: Keep a brand's voice, audience research, hooks and strategy notes in living Brand Studio documents the AI can read, update and create. Use when you need brand voice or deep brand context for creative work, when asked to update brand documentation, or when you learn something durable about the brand worth recording.
 ---
 
 # Brand Docs
