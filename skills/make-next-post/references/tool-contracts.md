@@ -9,7 +9,7 @@
 
 ## External research tools
 
-- Use `search_tiktok` and `search_youtube` for current platform evidence.
+- Use `search_social` for current platform evidence: platform `tiktok` or `instagram` for short-form video, `youtube` for search-driven video, `x` or `threads` for what people are saying.
 - Transcribe at most two standout results with `transcribe_video_url`.
 
 ## Write tools

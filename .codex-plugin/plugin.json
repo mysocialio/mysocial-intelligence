@@ -20,6 +20,8 @@
     "youtube",
     "linkedin",
     "threads",
+    "x",
+    "twitter",
     "substack",
     "competitor research",
     "outliers",
@@ -34,7 +36,7 @@
   "interface": {
     "displayName": "Mysocial Intelligence",
     "shortDescription": "What works in your content, and what to post next",
-    "longDescription": "Social media intelligence from your own posts, transcripts, comments and audience on Instagram, TikTok, YouTube, LinkedIn, Threads and Substack, plus the creators and outlier posts in your niche. Understand what works for you, what is working across social media, and what to make next. It reads and researches; it never posts for you.",
+    "longDescription": "Social media intelligence from your own posts, transcripts, comments and audience on Instagram, TikTok, YouTube, LinkedIn, Threads and Substack, plus the creators and outlier posts in your niche. On paid plans it also searches public posts on TikTok, YouTube, Instagram, X and Threads. Understand what works for you, what is working across social media, and what to make next. It reads and researches; it never posts for you.",
     "developerName": "Mysocial",
     "category": "Productivity",
     "capabilities": [

@@ -8,9 +8,18 @@ What each call returns, what the labels mean, and what is deliberately absent.
 |---|---|---|
 | Personalized | `universe_content`, `search_universe` with `topicKeywordId` / `clusterId` / `topic` | posts discovered for this creator's own researched topics, ranked for them |
 | Broader stored | `search_universe` (no topic), `get_universe_post` | every discovered post Mysocial holds, any topic, any customer's research |
-| Live discovery | `search_creators`, `search_tiktok`, `search_youtube`, `transcribe_video_url` | provider calls at request time; metered by the plan's monthly research window |
+| Live discovery | `search_creators`, `search_social`, `transcribe_video_url` | provider calls at request time; searches spend the plan's monthly research window, an audio transcript the video-processing allowance |
 
-Empty at one level is a fact about that level only. Each search reply carries `failed[]` (platforms that errored) and `fromStorage`; a `limit_reached` status is a plan gate to relay, not an empty market.
+Empty at one level is a fact about that level only. `search_creators` replies carry `failed[]` (platforms that errored) and `fromStorage`; `search_social` says how it ran in `searched` and why a list is empty or short in `note`. A `limit_reached` status is a plan gate to relay, not an empty market.
+
+## Live public posts (`search_social`)
+
+- One platform per call: `tiktok`, `youtube`, `instagram`, `x` or `threads`. Instagram searches the query as one hashtag (`searched.hashtag`); Threads searches the exact phrase and returns one sampled window (`searched.sampled: true`).
+- Each row: `url`, `author` (handle), `authorName` when it differs, `text` (cut at 280 characters), `format` (`video`, `image`, `carousel` or `text`), `metrics`, `durationSeconds`, `createdAt`. `metrics` holds only what the platform reported: an absent count is unknown, never zero, and a reported 0 is a real 0. YouTube search reports views only; X reports views, likes, replies (`comments`), reposts, quotes and bookmarks.
+- `searched`: `provider` (`rapidapi` or `socialcrawl`), `days` (the window actually applied: YouTube widens 90 and 180 days to a year, Instagram has none and says so in `note`), `page`, and `fallbackFrom` when X was served by its backup.
+- Paging: `nextCursor` while there is more; pass it back as `cursor` with the same platform and query (a cursor from another search is refused). A page is the provider's whole page, never sliced. Posts an earlier page showed are left out and counted in `note`.
+- Cost: each page that brings new posts is one action from the monthly research pool; an empty page or a page of repeats is free. `allowance.searchesRemaining` comes back with every answer.
+- A row is a candidate. It carries no creator baseline: Instagram, TikTok and YouTube authors get one through `get_channel_posts`; X and Threads authors have none.
 
 ## Creator and catalogue
 
@@ -34,7 +43,7 @@ Empty at one level is a fact about that level only. Each search reply carries `f
 Every post-level `comparison` has the same fields: `metric`, `value`, `observedAt`, `baseline { kind, median, sampleSize, basis, windowDays, computedAt, platform, format, eligibility }`, `method`, `multiple`, `verdict`, `limitations[]`.
 
 - `verdict`: `above_baseline` (at least 1.2x), `at_baseline`, `below_baseline` (at most 0.8x), or `insufficient_evidence` (no baseline, no value, or fewer than 8 posts in the sample). With `insufficient_evidence` a `multiple` may still be present as arithmetic; quote it only with its limitation.
-- `basis`: `trailing_window` - the creator's own posts of the same format in the 90 days before the post (needs a walked catalogue; the strongest read). `recent_sample` - a one-off sample of about 25 recent posts, lifetime metrics, not age-matched. `topic_cohort` - other creators' posts on the same topic and platform (`cohortComparison`), which says something about the topic, not about this creator's form.
+- `basis`: `trailing_window` - the creator's own posts of the same format in the 90 days before the post (needs a walked catalogue; the strongest read). `recent_sample` - a one-off sample of about 25 recent posts, lifetime metrics, not age-matched. "topic_cohort" - other creators' posts on the same topic and platform (`cohortComparison`), which says something about the topic, not about this creator's form.
 - `reach` is the raw count on its own. High reach with `insufficient_evidence` is "a big post", not "an outlier for this creator".
 - Views on different platforms are different units. Compare multiples across platforms, not views; compare views only within one creator on one platform.
 - Nothing here is a probability of virality, and no field estimates one.

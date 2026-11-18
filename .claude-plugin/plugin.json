@@ -1,7 +1,7 @@
 {
   "name": "mysocial-intelligence",
-  "version": "0.1.4",
-  "description": "See what works on your Instagram, TikTok, YouTube and LinkedIn, and what to post next. Social media intelligence from your own posts, transcripts, comments and audience on Instagram, TikTok, YouTube, LinkedIn, Threads and Substack, plus the creators and outlier posts in your niche. Eight skills: analyse what works and why a post hit, find what to make next, write the next post (hook, script, caption, CTA), research creators and competitors, run an organic growth sprint, keep brand voice documents and your product catalog, and draft brand deal outreach. Works on the free plan. It reads and researches; it never posts for you.",
+  "version": "0.1.5",
+  "description": "See what works on your Instagram, TikTok, YouTube and LinkedIn, and what to post next. Mysocial reads your own posts, transcripts, comments and audience (Threads and Substack too), plus the creators and outlier posts in your niche; paid plans also search public posts on TikTok, YouTube, Instagram, X and Threads. Eight skills: analyze what works and why a post hit, find what to make next, write the next post (hook, script, caption, CTA), research creators and competitors, run an organic growth sprint, keep brand voice and product docs, and draft brand deal outreach. Free to start: connect Mysocial after you install. It reads and researches; it never posts for you.",
   "author": {
     "name": "Mysocial",
     "email": "support@mysocial.io",
@@ -20,6 +20,8 @@
     "youtube",
     "linkedin",
     "threads",
+    "x",
+    "twitter",
     "substack",
     "competitor research",
     "outliers",

@@ -9,6 +9,14 @@ A creator's products are what they actually sell: free lead magnets, paid digita
 
 Read the catalog before giving any advice about pricing, launches, offers, or promotion. Advice given without it is guessing about a business you could simply have looked at.
 
+## If the Mysocial tools are missing
+
+This skill needs the Mysocial connection. If no Mysocial tools are available (`list_channels` is the quickest check), do not answer from general knowledge. Tell the user how to connect, in two short lines, and stop:
+- Claude apps and Cowork: Settings, then Connectors, then Mysocial, then Connect, and sign in.
+- Claude Code: run `/mcp`, choose the Mysocial server, and sign in.
+
+No account yet? Sign up free at https://mysocial.io and connect a channel. The free plan is enough to start.
+
 ## Workflow
 
 1. Read the map: `list_brand_products` returns every offer cheapest-first with a rendered price line, lifecycle status, buyer, funnel role, and ladder relations, plus a count of offers per status. This one call is the whole monetisation picture.

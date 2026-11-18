@@ -7,6 +7,14 @@ description: Keep a brand's voice, audience research, hooks and strategy notes i
 
 Brand Studio sources are the creator's private, living Markdown brand documents. They are versioned: every change you make becomes an attributed revision the creator can inspect as a diff and revert. Edit them like a careful collaborator, not a scratchpad.
 
+## If the Mysocial tools are missing
+
+This skill needs the Mysocial connection. If no Mysocial tools are available (`list_channels` is the quickest check), do not answer from general knowledge. Tell the user how to connect, in two short lines, and stop:
+- Claude apps and Cowork: Settings, then Connectors, then Mysocial, then Connect, and sign in.
+- Claude Code: run `/mcp`, choose the Mysocial server, and sign in.
+
+No account yet? Sign up free at https://mysocial.io and connect a channel. The free plan is enough to start.
+
 ## Workflow
 
 1. Discover: `search_brand_sources` with what you are looking for — it returns the best-matching sections across every document, with heading context and an `offset`. Use `list_brand_identities` + `get_brand_identity` when you need the catalog itself (filenames, captions, counts) — pass `includeImages: false` there, this workflow is about words and the brand's pictures would only cost context. Do not page through whole documents to find something.

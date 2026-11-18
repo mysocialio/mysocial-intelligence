@@ -15,6 +15,7 @@ Script / beats:
   1. <beat> - <what is said or shown>
   2. ...
 Product demonstration: <the specific thing shown on screen, with the real screen or feature; what it must actually do>
+Funnel stage: <top, middle or bottom, and why>
 CTA (one): <the credible next action>
 Hypothesis: <what should happen and why, resting on which evidence>
 Primary success metric: <one metric, and the baseline it will be judged against>
@@ -26,6 +27,6 @@ Rules:
 
 - Preserve a short exact hook only when the user asked for it; otherwise adapt it. Scripts, examples, demonstrations and footage are original.
 - A reference's results, revenue claims, credentials and product-specific functionality are theirs; never carry them into the creator's claims.
-- The demonstration must be something the product does today. Read `get_brand_identity` / `list_brand_products` before writing it; if unsure, mark it as "to confirm" rather than inventing a capability.
+- When the creator has a product or offer, the demonstration must be something it does today. Read `get_brand_identity` / `list_brand_products` when they are set up; otherwise go by what the creator's own posts show, and mark anything unsure as "to confirm" rather than inventing a capability. Without a product, the demonstration is what the creator shows or does on camera.
 - No virality promises, no invented probabilities. "Strong reach evidence, no conversion evidence" is a valid and common limitation.
 - Three to five briefs with meaningful differences between them (a different mechanism, format or promise), not five rewrites of one idea.

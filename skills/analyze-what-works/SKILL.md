@@ -7,6 +7,14 @@ description: Analyse what works in a creator's social media content and why a po
 
 Use Mysocial as the evidence layer. The answer is a mechanism the creator can reuse, backed by the posts that prove it. Never answer "what works for me" with a ranked list of top posts.
 
+## If the Mysocial tools are missing
+
+This skill needs the Mysocial connection. If no Mysocial tools are available (`list_channels` is the quickest check), do not answer from general knowledge. Tell the user how to connect, in two short lines, and stop:
+- Claude apps and Cowork: Settings, then Connectors, then Mysocial, then Connect, and sign in.
+- Claude Code: run `/mcp`, choose the Mysocial server, and sign in.
+
+No account yet? Sign up free at https://mysocial.io and connect a channel. The free plan is enough to start.
+
 ## Workflow
 
 1. Call `get_hit_dna` first. Its strands are the recurring mechanisms; `attempts`, `hitRate`, `decay` and the evidence posts say how repeatable each one is. Read the essence sentence and every strand before opening any single post.

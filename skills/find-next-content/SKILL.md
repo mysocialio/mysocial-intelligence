@@ -7,6 +7,14 @@ description: Find what to post next - content ideas and topics grounded in the c
 
 Use Mysocial as the evidence layer. The output is a short set of directions, each tied to a mechanism that already worked and a reason it is not yet used up. Never copy top hooks; mutate mechanisms.
 
+## If the Mysocial tools are missing
+
+This skill needs the Mysocial connection. If no Mysocial tools are available (`list_channels` is the quickest check), do not answer from general knowledge. Tell the user how to connect, in two short lines, and stop:
+- Claude apps and Cowork: Settings, then Connectors, then Mysocial, then Connect, and sign in.
+- Claude Code: run `/mcp`, choose the Mysocial server, and sign in.
+
+No account yet? Sign up free at https://mysocial.io and connect a channel. The free plan is enough to start.
+
 ## Workflow
 
 1. Call `get_strategy_context` with `task: find_next_topic`, the platform, and the topic or objective when the user gave one. Read its playbook block, then the saturation, audience demand, hits and misses it returns.

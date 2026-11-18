@@ -27,12 +27,22 @@ tools and is not trying to acquire any.
 
 ## Install
 
+**Claude apps (web, desktop, mobile) and Cowork** — install Mysocial
+Intelligence from the plugin directory, then connect it: Settings, then
+Connectors, then Mysocial, then **Connect**, and sign in. Until you connect,
+the skills have nothing to read.
+
+No account yet? Sign up free at https://mysocial.io and connect a channel.
+The free plan is enough to start.
+
 **Claude Code**
 
 ```
 /plugin marketplace add mysocialio/mysocial-intelligence
 /plugin install mysocial-intelligence@mysocial-intelligence
 ```
+
+Then run `/mcp`, choose the Mysocial server, and sign in.
 
 **Skills only** (any agent that supports Agent Skills)
 

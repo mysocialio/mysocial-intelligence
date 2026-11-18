@@ -7,6 +7,14 @@ description: Write the next social media post from what already worked for this 
 
 Use the connected Mysocial MCP server as the evidence layer. Perform all strategy, selection, and writing yourself. Never ask Mysocial to generate or decide on the creator's behalf.
 
+## If the Mysocial tools are missing
+
+This skill needs the Mysocial connection. If no Mysocial tools are available (`list_channels` is the quickest check), do not answer from general knowledge. Tell the user how to connect, in two short lines, and stop:
+- Claude apps and Cowork: Settings, then Connectors, then Mysocial, then Connect, and sign in.
+- Claude Code: run `/mcp`, choose the Mysocial server, and sign in.
+
+No account yet? Sign up free at https://mysocial.io and connect a channel. The free plan is enough to start.
+
 ## Workflow
 
 1. Resolve the platform from the request or `list_channels`. Ask only when multiple connected platforms remain materially ambiguous. Default the objective to `platform_outlier`.
